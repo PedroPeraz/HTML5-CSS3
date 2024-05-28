@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-Fonte e Pré-Formatado</h2>
+    <p>O comando <code>document.getElementbyId('teste')</code> é escrito em linguagem JavaScript.</p>
+    <p>É possível usar a tag <strong>"code"</strong> que deixa códigos em uma fonte monoespaçada, facilitando a leitura.</p>
+
+    <p>Caso queira mostrar linhas de código, pode ser colocado a tag <strong>"pre"</strong>, que faz com que o código deixe de ficar assim:</p>
+
+    <code>
+        num = int(input('Digite um número'))
+        if num % 2 == 0:
+            print(f'O número {num} é PAR'')
+        else:
+            print(f'O número {num} é ÍMPAR')
+        print('Fim do programa')
+    </code>
+
+    <p>Para ficar assim:</p>
+    
+    <pre>
+        <code>
+num = int(input('Digite um número'))
+if num % 2 == 0:
+    print(f'O número {num} é PAR'')
+else:
+    print(f'O número {num} é ÍMPAR')
+print('Fim do programa')
+        </code>
+    </pre>
+
+    <h2>Citações</h2>
+    <p>Para fazer uma citação, é possível usar a tag "q" que significa <em>quote</em> (citação em inglês).</p>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+
+    <p><small>Dessa forma, damos um <strong>sentido semântico</strong> a colocação das aspas.</small></p>
+
+    <h2>Citações Completas</h2>
+    <p>Segundo jeff Noble, no seu livro HTML para Leigos:</p>
+
+    <blockquote cite="https://books.google.com.br/books?id=E8ZtDwAAQBAJ&pg=PA17&dq=HTML&hl=pt-BR&sa=X&ved=0ahUKEwjH5-PevNboAhVNIbkGHcoxCOgQ6AEIOjAC#v=onepage&q=HTML&f=false">
+        A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
+    </blockquote>
+
+    <p><small>E com a tag <strong>"cite"</strong> é possível colocar a referência que ficará oculta dentro do seu site.</small></p>
+
+    <h2>Abreviações</h2>
+    <p>Com a tag <strong>"abbr"</strong> é possível colocar o significado das abreviações inseridas no seu texto. Como por exemplo:</p>
+
+    Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascating Style Sheets">CSS</abbr>, e estou adorando!
+
+    <h2>Texto Invertido</h2>
+    <p>A partir da tag <strong>"bdo"</strong> é possível inverter seus textos!</p>
+
+    <h3>Texto da esquerda para a direita:</h3>
+    <p><bdo dir="ltr">É um código relativamente inútil? Sim, mas é legal!</bdo></p>
+
+    <h3>Texto da direta para a esquerda:</h3>
+    <p><bdo dir="rtl">É um código relativamente inútil? Sim, mas é legal!</bdo></p>
+</body>
+</html>

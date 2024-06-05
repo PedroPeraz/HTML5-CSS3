@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundo Fixo de Tela</title>
+    <style>
+        body{
+            height: 100vh;
+            /*Body toma o tamanho inteiro da tela*/
+            /*
+            background-color: black;
+            background-image: url(imagens/wallpaper002.jpg);
+            background-position: center top;
+            background-repeat: repeat-y;
+            background-attachment: fixed;
+            background-size: cover;
+            */
+
+            background: black url(imagens/wallpaper002.jpg) center top repeat-y fixed;
+            background-size: cover;
+
+            /*
+            Background shorthand:
+            background: color > image > position > repeat > size* > attachment;
+            */
+
+            /*
+            Com o background-attachment "fixed" e o background-size em "cover" é possível manter o fundo fixo independentemente da rolagem.
+            */
+
+            /*
+            Background-size adimite 4 parâmetros:
+            - auto = Ele se vira para colocar a imagem na tela
+            - 100px 100px = Você admite o tamanho do background
+            - contain = Ele faz de tudo para manter a imagem INTEIRA na tela, isso significa que podem aparecer barras abaixo ou ao lado do seu site.
+            - cover = Ele faz o que o contain faz, mas ele corta parte da imagem se necessário para que ela caiba no tamanho do body.
+            */
+        }
+        main{
+            max-width: 300px;
+            padding: 10px;
+            margin: auto;
+            border: 1px solid black;
+            border-radius: 15px;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste de Imagem de Fundo</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione optio eaque officia non possimus blanditiis repellendus temporibus deleniti sed excepturi quos, quasi maxime rerum dolor molestias vero ipsam repellat repudiandae!Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptatum placeat perspiciatis nihil pariatur eveniet tempora repellat nostrum sint aliquid quisquam quidem nulla distinctio laboriosam nobis, numquam quae voluptates cupiditate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam iure suscipit modi minima consequatur similique in aliquid, nulla, recusandae qui voluptates totam veniam perferendis, saepe commodi tempora animi? Accusamus, ipsa.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione optio eaque officia non possimus blanditiis repellendus temporibus deleniti sed excepturi quos, quasi maxime rerum dolor molestias vero ipsam repellat repudiandae!Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptatum placeat perspiciatis nihil pariatur eveniet tempora repellat nostrum sint aliquid quisquam quidem nulla distinctio laboriosam nobis, numquam quae voluptates cupiditate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam iure suscipit modi minima consequatur similique in aliquid, nulla, recusandae qui voluptates totam veniam perferendis, saepe commodi tempora animi? Accusamus, ipsa.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione optio eaque officia non possimus blanditiis repellendus temporibus deleniti sed excepturi quos, quasi maxime rerum dolor molestias vero ipsam repellat repudiandae!Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptatum placeat perspiciatis nihil pariatur eveniet tempora repellat nostrum sint aliquid quisquam quidem nulla distinctio laboriosam nobis, numquam quae voluptates cupiditate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam iure suscipit modi minima consequatur similique in aliquid, nulla, recusandae qui voluptates totam veniam perferendis, saepe commodi tempora animi? Accusamus, ipsa.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione optio eaque officia non possimus blanditiis repellendus temporibus deleniti sed excepturi quos, quasi maxime rerum dolor molestias vero ipsam repellat repudiandae!Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptatum placeat perspiciatis nihil pariatur eveniet tempora repellat nostrum sint aliquid quisquam quidem nulla distinctio laboriosam nobis, numquam quae voluptates cupiditate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam iure suscipit modi minima consequatur similique in aliquid, nulla, recusandae qui voluptates totam veniam perferendis, saepe commodi tempora animi? Accusamus, ipsa.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione optio eaque officia non possimus blanditiis repellendus temporibus deleniti sed excepturi quos, quasi maxime rerum dolor molestias vero ipsam repellat repudiandae!Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptatum placeat perspiciatis nihil pariatur eveniet tempora repellat nostrum sint aliquid quisquam quidem nulla distinctio laboriosam nobis, numquam quae voluptates cupiditate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam iure suscipit modi minima consequatur similique in aliquid, nulla, recusandae qui voluptates totam veniam perferendis, saepe commodi tempora animi? Accusamus, ipsa.
+        </p>
+    </main>
+</body>
+</html>
